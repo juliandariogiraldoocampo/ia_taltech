@@ -78,7 +78,7 @@ Este documento describe el contenido de cada columna del archivo `fiscalia_sinte
 - Esto permite practicar técnicas de imputación y tratamiento de datos faltantes.  
 
 ---
-# 📖 Diccionario de Datos – Resumen Tabular
+# 📖 Resumen Diccionario de Datos
 
 | Columna                   | Descripción                                                      | Tipo de dato   | Valores posibles / Ejemplo |
 |----------------------------|------------------------------------------------------------------|----------------|----------------------------|
