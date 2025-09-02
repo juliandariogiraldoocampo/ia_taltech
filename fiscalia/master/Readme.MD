@@ -78,6 +78,46 @@ Este documento describe el contenido de cada columna del archivo `fiscalia_sinte
 - Esto permite practicar técnicas de imputación y tratamiento de datos faltantes.  
 
 ---
+# 📖 Diccionario de Datos – Resumen Tabular
 
-👉 Este diccionario es la guía de referencia para que los campistas entiendan el significado de cada variable y cómo utilizarlas en los ejercicios de **EDA, regresión, clasificación, clustering y PLN**.
+| Columna                   | Descripción                                                      | Tipo de dato   | Valores posibles / Ejemplo |
+|----------------------------|------------------------------------------------------------------|----------------|----------------------------|
+| `act_id`                  | Identificador único de la actuación                              | Texto (ID)     | `ACT_000001`               |
+| `case_id`                 | Identificador único del caso                                     | Texto (ID)     | `NTC_000001`               |
+| `fecha_actuacion`         | Fecha en que se realizó la actuación                            | Fecha          | `2022-05-13`               |
+| `anio`                    | Año de la actuación                                             | Entero         | 2019–2025                  |
+| `mes`                     | Mes numérico                                                    | Entero         | 1–12                       |
+| `fecha_apertura`          | Fecha de apertura del caso                                      | Fecha          | `2021-03-02`               |
+| `departamento`            | Departamento                                                    | Texto          | Antioquia                  |
+| `municipio`               | Municipio del Valle de Aburrá                                   | Texto          | Medellín, Bello, Itagüí…   |
+| `delito_tipo`             | Categoría principal del delito                                  | Texto categ.   | hurto, homicidio, drogas…  |
+| `delito_subtipo`          | Subcategoría del delito                                         | Texto categ.   | hurto_comercio, tráfico…   |
+| `etapa_procesal`          | Etapa en que está el proceso                                    | Texto categ.   | indagación, imputación…    |
+| `unidad_fiscal`           | Unidad de Fiscalía asignada                                     | Texto categ.   | URO Medellín, CAIVAS…      |
+| `prioridad`               | Nivel de prioridad                                              | Texto categ.   | Baja, Media, Alta          |
+| `riesgo_inicial`          | Nivel inicial de riesgo (0–100)                                 | Numérico       | 0–100                      |
+| `hechos_texto`            | Descripción breve en lenguaje natural                           | Texto libre    | "Se reporta hurto…"        |
+| `actuacion_tipo`          | Tipo de actuación procesal                                      | Texto categ.   | imputación, acusación…     |
+| `duracion_min`            | Duración de la actuación en minutos                            | Numérico       | 25, 45, 120                |
+| `gestion`                 | Clasificación de la gestión según duración                      | Texto categ.   | Ágil, Promedio, Extensa    |
+| `fecha_limite`            | Fecha límite para la actuación                                 | Fecha          | `2022-07-01`               |
+| `dias_restantes_cal`      | Días calendario hasta vencimiento                               | Entero         | -15, 30, 90                |
+| `dias_restantes_habiles`  | Días hábiles hasta vencimiento                                  | Entero         | -10, 20, 70                |
+| `n_intervinientes_total`  | Número de personas vinculadas al caso                           | Entero         | 1–15                       |
+| `n_victimas`              | Número de víctimas                                              | Entero         | 0–10                       |
+| `n_indiciados`            | Número de indiciados                                            | Entero         | 0–10                       |
+| `n_testigos`              | Número de testigos                                              | Entero         | 0–8                        |
+| `n_denunciantes`          | Número de denunciantes                                          | Entero         | 0–5                        |
+| `edad_promedio`           | Edad promedio de intervinientes                                 | Numérico       | 12–85                      |
+| `pct_femenino`            | Proporción de intervinientes mujeres (0–1)                      | Numérico       | 0.0–1.0                    |
+| `n_occisos`               | Número de occisos en el caso                                    | Entero         | 0–3                        |
+| `orientacion_lgbti`       | Indicador si hay algún interviniente LGBTI                      | Binario (0/1)  | 0, 1                       |
+| `orientacion_sin_info`    | Indicador si hay algún interviniente con orientación sin datos  | Binario (0/1)  | 0, 1                       |
+| `indice_orden_publico`    | Conteo de eventos de orden público asociados al municipio-año   | Entero         | 0–80                       |
+| `riesgo_territorial`      | Índice de riesgo territorial normalizado (0–1)                  | Numérico       | 0.0–1.0                    |
+| `acusacion`               | Indicador de acusación formal                                   | Binario (0/1)  | 0, 1                       |
+| `condena`                 | Indicador de condena                                            | Binario (0/1)  | 0, 1                       |
+| `pena_meses`              | Pena impuesta en meses                                          | Entero         | 0–600                      |
+| `tiempo_total_proceso_dias` | Tiempo total del proceso desde apertura a cierre              | Entero         | 0–2500                     |
 
+---
