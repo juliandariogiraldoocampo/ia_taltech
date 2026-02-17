@@ -1,0 +1,26 @@
+ID_Vuelo,Tipo_Aeronave,Pasajeros,Velocidad_Viento,Movimientos_Hora,Horas_Desde_Programación,Disponibilidad_Puertas,Retraso_Minutos
+HK8494,Jet regional,42,46.7,7,0,6,92
+HK5645,Jet regional,23,53.5,42,3,3,59
+HK2097,Jet regional,51,41.7,5,6,4,101
+HK5666,Turbohélice,65,44.8,31,1,0,78
+HK6109,Aviación general,21,27.6,16,1,2,64
+HK9213,Jet regional,77,51.0,17,1,6,22
+HK8571,Turbohélice,24,37.5,8,1,5,82
+HK4987,Jet regional,27,48.4,15,5,2,101
+HK4406,Aviación general,35,22.3,36,5,6,75
+HK1416,Aviación general,11,37.3,29,3,5,48
+HK5347,Turbohélice,50,53.0,5,6,3,73
+HK5296,Turbohélice,42,13.0,33,5,6,19
+HK6014,Jet regional,34,25.4,35,5,4,37
+HK4282,Aviación general,41,23.2,43,6,2,112
+HK7880,Turbohélice,50,16.7,36,0,5,4
+HK5320,Aviación general,16,53.4,19,5,2,13
+HK2748,Turbohélice,61,47.1,36,6,3,24
+HK5111,Jet regional,40,20.8,22,3,4,55
+HK5052,Turbohélice,50,54.3,17,2,0,114
+HK5226,Turbohélice,73,20.2,39,5,4,111
+HK4574,Turbohélice,7,15.3,5,6,2,67
+HK2830,Turbohélice,8,12.2,34,3,1,99
+HK9065,Jet regional,12,38.9,19,4,3,40
+HK8748,Aviación general,73,20.5,37,6,5,113
+HK1466,Jet regional,43,33.0,29,0,6,53
