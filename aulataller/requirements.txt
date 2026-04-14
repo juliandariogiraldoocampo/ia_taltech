@@ -1,4 +1,3 @@
-libgl1-mesa-glx
 streamlit
 ultralytics
 opencv-python-headless
